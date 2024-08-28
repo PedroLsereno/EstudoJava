@@ -1,0 +1,12 @@
+
+public class Vetor {
+	private int[] vet;
+
+	public Vetor(int N) {
+		vet = new int[N];
+	}
+	
+	
+	
+	
+}

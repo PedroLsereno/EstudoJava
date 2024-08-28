@@ -1,0 +1,12 @@
+package entities;
+
+public class Produtos {
+	public String name;
+	public double preco;
+	public int quantidade;
+	
+	public double ValorTotalNoEstoque(double total) {
+		total = preco * quantidade;
+		return total;
+	}
+}

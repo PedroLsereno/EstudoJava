@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Produtos;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		//Entrando com os valores
+		System.out.println("Ente com os valores: ");
+		System.out.print("Nome: ");
+		Produtos produto = new Produtos();
+		produto.nome = sc.next();
+		
+		System.out.print("Preço: ");
+		produto.preco = sc.nextDouble();
+		
+		System.out.print("Quantidade: ");
+		produto.quantidade = sc.nextInt();
+	
+		System.out.printf("Nome do produto: %s, Preço do produto: R$%.2f, Quantidade no estoque: %d, Total: R$%.2f%n",produto.nome,produto.preco,produto.quantidade,produto.ValorTotalNoEstoque());
+		
+		System.out.println(produto.toString());
+		System.out.println(produto);
+		sc.close();
+	}
+
+}

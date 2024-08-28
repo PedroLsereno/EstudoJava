@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Integer x = null;
+		
+		Object obj = x;
+		System.out.println(obj);
+		
+		int y = obj;
+		System.out.println(y);
+
+	}
+
+}

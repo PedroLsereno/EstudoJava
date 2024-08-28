@@ -1,0 +1,20 @@
+
+public class Vetor {
+	private int[] vet;
+
+	public Vetor(int N) {
+		vet = new int[N];
+	}
+
+	public int[] getVet() {
+		return vet;
+	}
+
+	public void setVet(int[] vet) {
+		this.vet = vet;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Produtos;
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Ente com os valores: ");
+		System.out.print("Nome: ");
+		Produtos nome = new Produtos();
+		nome.nome
+		System.out.print("Preço: ");
+		System.out.print("Quantidade: ");
+		
+		
+		
+		sc.close();
+	}
+
+}

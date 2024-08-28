@@ -1,0 +1,20 @@
+package entities;
+
+public class Produtos {
+	public String name;
+	public double preco;
+	public int quantidade;
+	
+	public double ValorTotalNoEstoque(double total) {
+		total = preco * quantidade;
+		return total;
+	}
+	
+	public void AddProdutos(int quantidade) {
+		this.quantidade += quantidade;
+	}
+	
+	public void RemoveProdutos(int quantidade) {
+		this.quantidade -= quantidade;
+	}
+}

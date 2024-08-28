@@ -1,0 +1,16 @@
+package animal;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Cachorro meuCachorro = new Cachorro("Rex", "Pastor Alemão", 5);
+
+	    meuCachorro.mostrarInformacoes();
+	    meuCachorro.andar();
+	    meuCachorro.latir();
+	    meuCachorro.comer();
+	}
+}
+
+
